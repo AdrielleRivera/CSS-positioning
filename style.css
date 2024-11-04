@@ -19,3 +19,27 @@
     align-content: center;
     text-align: center;
 }
+.absolute-box {
+    width: 200px;
+    height: 100px;
+    color: white;
+    background-color: lightcoral;
+    align-content: center;
+    text-align: center;
+}
+
+.fixed-box {
+    width: 200px;
+    height: 100px;
+    color: white;
+    background-color: lightseagreen;
+    align-content: center;
+    text-align: center;
+}
+.sticky-box {
+    width: 200px;
+    height: 100px;
+    background-color: lightsalmon;
+    align-content: center;
+    text-align: center;
+}
