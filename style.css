@@ -1,0 +1,21 @@
+.content {
+    height: 1500px;
+    background-color: lightyellow;
+}
+
+.static-box {
+    width: 200px;
+    height: 100px;
+    background-color: lightgreen;
+    align-content: center;
+    text-align: center;
+}
+
+.relative-box {
+    width: 200px;
+    height: 100px;
+    color: white;
+    background-color: blue;
+    align-content: center;
+    text-align: center;
+}
