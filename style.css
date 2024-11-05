@@ -9,7 +9,8 @@
     height: 100px;
     background-color: lightgreen;
     align-content: center;
-    text-align: center;
+     position:absolute;
+     z-index: 1;
 }
 
 .relative-box {
@@ -19,8 +20,8 @@
     background-color: blue;
     align-content: center;
     text-align: center;
-    position:relative;
-    top:0px;
+     position:relative;
+     z-index: 2;
 }
 .absolute-box {
     width: 200px;
@@ -29,8 +30,8 @@
     background-color: lightcoral;
     align-content: center;
     text-align: center;
-    position:absolute;
-    left:208px;
+    position:fixed;
+    
     
 }
 
@@ -49,4 +50,6 @@
     background-color: lightsalmon;
     align-content: center;
     text-align: center;
+     position:fixed;
+     z-index: 3;
 }
