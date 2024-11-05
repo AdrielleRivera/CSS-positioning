@@ -1,4 +1,4 @@
-
+ 
 .content {
     height: 1500px;
     background-color: lightyellow;
@@ -29,6 +29,9 @@
     background-color: lightcoral;
     align-content: center;
     text-align: center;
+    position:absolute;
+    left:208px;
+    
 }
 
 .fixed-box {
@@ -38,6 +41,7 @@
     background-color: lightseagreen;
     align-content: center;
     text-align: center;
+    position:fixed;
 }
 .sticky-box {
     width: 200px;
