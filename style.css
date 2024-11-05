@@ -1,5 +1,4 @@
- 
-.content {
+ .content {
     height: 1500px;
     background-color: lightyellow;
 }
@@ -9,8 +8,9 @@
     height: 100px;
     background-color: lightgreen;
     align-content: center;
-     position:absolute;
-     z-index: 1;
+    text-align: center;
+    position:static;
+    z-index: 999;
 }
 
 .relative-box {
@@ -22,6 +22,7 @@
     text-align: center;
      position:relative;
      z-index: 2;
+     
 }
 .absolute-box {
     width: 200px;
@@ -30,8 +31,8 @@
     background-color: lightcoral;
     align-content: center;
     text-align: center;
-    position:fixed;
-    
+    position:absolute;
+    z-index: 2;
     
 }
 
@@ -43,6 +44,8 @@
     align-content: center;
     text-align: center;
     position:fixed;
+    top:115px;
+    z-index: 1;
 }
 .sticky-box {
     width: 200px;
@@ -50,6 +53,6 @@
     background-color: lightsalmon;
     align-content: center;
     text-align: center;
-     position:fixed;
-     z-index: 3;
+    position:sticky;
+    z-index:2;
 }
